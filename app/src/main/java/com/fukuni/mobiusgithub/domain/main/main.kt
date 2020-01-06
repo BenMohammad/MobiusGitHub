@@ -12,4 +12,4 @@ data class LoadReposEffect(val userName: String): MainEffect()
 sealed class MainEvent
 object MainInit: MainEvent()
 data class ReposLoadedEvent(val repoList: List<Repository>): MainEvent()
-object idleEvent: MainEvent()
+object IdleEvent: MainEvent()
