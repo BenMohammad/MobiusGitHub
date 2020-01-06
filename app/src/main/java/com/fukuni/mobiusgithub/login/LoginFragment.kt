@@ -91,7 +91,7 @@ class LoginFragment: Fragment(), ILoginView {
         passwordInput = view.findViewById(R.id.password_til)
         passwordText = view.findViewById(R.id.password)
         loginBtn = view.findViewById(R.id.login_btn)
-        errorTxt = view.findViewById(R.id.error_text)
+        errorTxt = view.findViewById(R.id.error)
         loginProgress = view.findViewById(R.id.login_progress)
         saveCredentialsCB = view.findViewById(R.id.save_credentials_cb)
 
